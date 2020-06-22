@@ -1,0 +1,30 @@
+{
+  "name": "fylo-landing-page-with-two-column-layout-master",
+  "version": "1.0.0",
+  "description": "A challenge from Frontend Mentor - Your challenge is to build out this landing page from the designs provided in the starter code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgeronimo/-Frontend-Mentor---fylo-landing-page-with-two-column-layout.git"
+  },
+  "keywords": [
+    "frontend",
+    "frontend",
+    "mentor",
+    "fylo",
+    "fylo",
+    "landing",
+    "page",
+    "landing",
+    "page"
+  ],
+  "author": "Rafael Geronimo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelgeronimo/-Frontend-Mentor---fylo-landing-page-with-two-column-layout/issues"
+  },
+  "homepage": "https://github.com/rafaelgeronimo/-Frontend-Mentor---fylo-landing-page-with-two-column-layout#readme"
+}
