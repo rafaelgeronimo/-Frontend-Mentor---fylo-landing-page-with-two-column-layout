@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
+  <link rel="stylesheet" href="assets/css/styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -16,17 +16,44 @@
 </head>
 <body>
 
-  Features
-  Team
-  Sign In
+  <header>
+    <img src="assets/images/logo.svg" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="content">
+        <h1>
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p>
+          Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+        <form action="">
+          <input class="email" type="email" placeholder="Enter your email here...">
+          <input class="button" type="submit" value="Get Started">
+        </form>
+      </div>
+      <div class="illustration-1">
+        <img src="assets/images/illustration-1.svg" alt="" width="660px" height="440px">
+      </div>
+    </section>
 
-  All your files in one secure location, accessible anywhere.
+  </main>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+  
 
-  Get Started
+  
+
+  
 
   Stay productive, wherever you are
 
@@ -66,7 +93,7 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Rafael Geronimo</a>.
     </p>
   </footer>
 </body>
